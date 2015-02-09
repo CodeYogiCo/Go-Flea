@@ -1,0 +1,2 @@
+include "fleaadda-spring-boot",
+		"fleaadda-caching"

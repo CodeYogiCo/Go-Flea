@@ -1,0 +1,20 @@
+
+
+apply plugin: 'java'
+apply plugin :'eclipse-wtp'
+
+
+
+repositories {
+    mavenCentral()
+    maven { url "http://repo.spring.io/libs-release" }
+    maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
+}
+
+
+
+dependencies {
+	compile('com.google.code.simple-spring-memcached:spymemcached:2.8.4')    
+   	compile ('org.slf4j:slf4j-api:1.7.10') 
+ 
+}
