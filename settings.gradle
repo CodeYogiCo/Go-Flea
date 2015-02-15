@@ -1,2 +1,3 @@
 include "fleaadda-spring-boot",
-		"fleaadda-caching"
+		"fleaadda-caching",
+		"fleaadda-security-core"

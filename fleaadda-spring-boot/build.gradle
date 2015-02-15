@@ -27,6 +27,7 @@ repositories {
 }
 
 dependencies {
+	compile project(':fleaadda-security-core')
 	compile project(':fleaadda-caching')
 	//providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     compile("org.springframework.boot:spring-boot-starter-web")
